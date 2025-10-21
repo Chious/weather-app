@@ -1,4 +1,82 @@
-@import 'tailwindcss';
+@import "tailwindcss";
+
+:root {
+  --neutral-900: #02012c;
+  --neutral-800: #262540;
+  --neutral-700: #302f4a;
+  --neutral-600: #3c3b5e;
+  --neutral-300: #acacb7;
+  --neutral-200: #d4d3d9;
+  --neutral-0: #ffffff;
+  --orange-500: #ff820a;
+  --blue-500: #4658d9;
+  --blue-700: #2b1b9c;
+  --primary-color: #000;
+  --secondary-color: #fff;
+}
+
+text-preset1 {
+  font-family: DM Sans, SemiBold Italic;
+  font-size: 96px;
+  line-height: 100%;
+  letter-spacing: -2px;
+}
+
+text-preset2 {
+  font-family: Bricolage Grotesque, Bold;
+  font-size: 52px;
+  line-height: 120%;
+  letter-spacing: 0;
+}
+
+text-preset3 {
+  font-family: DM Sans, Light;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+text-preset4 {
+  font-family: DM Sans, Bold;
+  font-size: 28px;
+  line-height: 120%;
+  letter-spacing: 0;
+}
+
+text-preset5 {
+  font-family: DM Sans, SemiBold;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0;
+}
+
+text-preset5-medium {
+  font-family: DM Sans, Medium;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0;
+}
+
+text-preset6 {
+  font-family: DM Sans, Medium;
+  font-size: 18px;
+  line-height: 120%;
+  letter-spacing: 0;
+}
+
+text-preset7 {
+  font-family: DM Sans, Medium;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 0;
+}
+
+text-preset8 {
+  font-family: DM Sans, Medium;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: 0;
+}
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -122,7 +200,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
+  content: "";
   content: none;
 }
 table {
